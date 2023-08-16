@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    overflow: hidden;
+    height: fit-content;
+}
+.firstclk {
+    font-weight: 500;
+    font-size: 38pt;
+    font-family: "Sacramento", cursive;
+    color: #6d3842;
+    cursor: s-resize;
+    padding: 5px;
+}
+.layerMask {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc0cb;
+    background-size: cover;
+}
+.drawHeart img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}  
+.music {
+    display: none;
+}
+#crush {
+    width: 100%;
+    height: 200px;
+}
